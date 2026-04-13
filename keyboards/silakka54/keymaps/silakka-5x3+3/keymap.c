@@ -62,12 +62,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, KC_Q,       KC_W,       KC_E,          KC_R,    KC_T,                         KC_Y,             KC_U,       KC_I,      KC_O,         KC_P,         XXXXXXX,
         XXXXXXX, KC_A,       KC_S,       KC_D,          KC_F,    KC_G,                         KC_H,             KC_J,       KC_K,      KC_L,         KC_SCLN,      XXXXXXX,
         XXXXXXX, KC_Z,       KC_X,       KC_C,          KC_V,    KC_B,                         KC_N,             KC_M,       KC_COMM,   KC_DOT,       KC_SLSH,      XXXXXXX,
-                                         XXXXXXX,       MO(1),   KC_SPC,                       KC_LSFT,          MO(2),      XXXXXXX
+                                         MO(1),         KC_LSFT, KC_SPC,                       KC_BACKSPACE,     KC_ENTER,   MO(2)
     ),
     [NAV] = LAYOUT(
         _______, _______,    _______,    _______,       _______,      _______,                 _______,          _______,    _______,   _______,      _______,      _______,
         _______, KC_ESCAPE,  LCTL(KC_W), LCTL(KC_Y),    ALT_TAB,      ALT_SHIFT_TAB,           KC_PRINT_SCREEN,  KC_HOME,    KC_UP,     KC_END,       KC_BACKSPACE, _______,
-        _______, LCTL(KC_A), LCTL(KC_S), LCTL(KC_F),    LCTL(KC_TAB), LCTL(LSFT(KC_TAB)),      LALT(LSFT(KC_F)), KC_LEFT,    KC_DOWN,   KC_RIGHT,     XXXXXXX,      _______,
+        _______, LCTL(KC_A), LCTL(KC_S), LCTL(KC_F),    LCTL(KC_TAB), LCTL(LSFT(KC_TAB)),      LALT(LSFT(KC_F)), KC_LEFT,    KC_DOWN,   KC_RIGHT,     KC_ENTER,     _______,
         _______, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C),    KC_TAB,       LSFT(KC_TAB),            KC_CAPS,          KC_PAGE_UP, KC_DELETE, KC_PAGE_DOWN, XXXXXXX,      _______,
                                          _______,       _______,      _______,                 _______,          _______,    _______
     ),
